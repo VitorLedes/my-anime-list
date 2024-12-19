@@ -1,9 +1,24 @@
-<div class="home">
-
-    <!-- <a (click)="router.navigate(['login'])">First Component</a> -->
+<div class="container">
+    <div class="home">
+        <div class="container first-container">
     
-    <div class="home-page-content">
-        <app-activity-card></app-activity-card>
+            <!-- <div *ngFor="let item of list">
+                <app-activity-card></app-activity-card>
+            </div> -->
+    
+            <app-activity-card></app-activity-card>
+            <app-activity-card></app-activity-card>
+            <app-activity-card></app-activity-card>
+            <app-activity-card></app-activity-card>
+    
+        </div>
+    
+        <div class="container second-container">
+            <app-activity-card></app-activity-card>
+            <app-activity-card></app-activity-card>
+            <app-activity-card></app-activity-card>
+            <app-activity-card></app-activity-card>
+        </div>
+        <!-- <a (click)="router.navigate(['login'])">First Component</a> -->
     </div>
-
 </div>
