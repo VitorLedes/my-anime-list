@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    background: #2b2d42;
+    flex-grow: 1;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        img {
+            width: 50px;
+        }
+    }
+
+    .option-btn {
+        color: rgb(218, 218, 218);
+        cursor: pointer;
+        padding: 10px 14px;
+        border-radius: 8px;
+        &:hover {
+            background-color: #202230;
+        }
+        &.singup {
+            background-color: #3577ff;
+            color: rgb(255, 255, 255);
+        }
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .options {
+        display: flex;
+        gap: 20px;
+    }
+
+    .login-options {
+        display: flex;
+        gap: 20px;
+        .login{
+            
+        }
+    }
+
+}
